@@ -2,104 +2,90 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hovanes Gasparian - Staff Data Scientist">
+  <meta name="author" content="Hovanes Gasparian">
 
-  <title>Hovanes Gasparian - Resume</title>
+  <title>Hovanes Gasparian</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <!-- FontAwesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-
+  <!-- Styles -->
+  <link href="css/resume.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Hovanes Gasparian</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <!-- Animated background -->
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-blob bg-blob--1"></div>
+    <div class="bg-blob bg-blob--2"></div>
+    <div class="bg-blob bg-blob--3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="glass-nav" id="navbar">
+    <a class="nav-logo" href="#hero">HG</a>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+      <a href="#awards">Awards</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  </header>
 
-  <div class="container-fluid p-0">
+  <main>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Hovanes
-          <span class="text-primary">Gasparian</span>
-        </h1>
-        <div class="subheading mb-5">Los Angeles, CA · (323) 540-4686 ·
-          <a href="mailto:hovanes@berkeley.edu">hovanes 'at' berkeley 'dot' edu</a>
-        </div>
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <img class="hero__avatar" src="img/profile.jpg" alt="Hovanes Gasparian">
+      <h1>Hovanes <span class="gradient-text">Gasparian</span></h1>
+      <p class="hero__subtitle">Staff Data Scientist</p>
+      <p class="hero__location">Los Angeles, CA</p>
+      <div class="hero__social">
+        <a href="https://www.linkedin.com/in/hov" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.github.com/hovikgas" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.twitter.com/hovanes" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/hovanes.g" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <p class="hero__contact">
+        <a href="mailto:hovanes@berkeley.edu">hovanes 'at' berkeley 'dot' edu</a> &middot; (323) 540-4686
+      </p>
+    </section>
 
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/hov">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://www.github.com/hovikgas">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.twitter.com/hovanes">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.facebook.com/hovanes.g">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </div> <br>
-
-        <p class="lead mb-5">My name is pronounced Ho-vawn-es, but most just call me Hov (yes, like Jay-Z). In my past life I worked in politics, at the federal as well as state levels. In my reincarnated past life, I was an aspiring academic. Now, I’m a data scientist! Regardless of how many lives I have left, I will always love helping others, analyzing data, and having fun.
-        </p>
-
-        <p class="lead mb-0">
-          Specialties:
+    <!-- About -->
+    <section id="about" class="section">
+      <h2 class="section__title reveal">About</h2>
+      <div class="glass-card reveal">
+        <p>My name is pronounced Ho-vawn-es, but most just call me Hov (yes, like Jay-Z). In my past life I worked in politics, at the federal as well as state levels. In my reincarnated past life, I was an aspiring academic. Now, I'm a data scientist! Regardless of how many lives I have left, I will always love helping others, analyzing data, and having fun.</p>
+      </div>
+      <div class="about__grid">
+        <div class="glass-card reveal">
+          <h3>Specialties</h3>
           <ul>
             <li>Data Analysis</li>
             <li>Data Visualization</li>
             <li>Statistical Modeling</li>
             <li>Machine Learning</li>
-            <li>Natural Language Processing (e.g. VADER, Google Cloud NLP).
+            <li>Natural Language Processing (e.g. VADER, Google Cloud NLP)</li>
           </ul>
-        </p>
-        <p class="lead mb-0">
-          Some of my favorite Python libraries and tools: <br />
+        </div>
+        <div class="glass-card reveal">
+          <h3>Python Libraries</h3>
           <ul>
             <li>Pandas</li>
             <li>NumPy</li>
@@ -107,211 +93,169 @@
             <li>SciPy</li>
             <li>StatsModels</li>
           </ul>
-        </p>
-        <p class="lead mb-0">
-          Some of my favorite tools for Data Visualization:
+        </div>
+        <div class="glass-card reveal">
+          <h3>Data Visualization</h3>
           <ul>
             <li>Matplotlib</li>
             <li>Seaborn</li>
             <li>Plotly</li>
           </ul>
-        </p>
-
+        </div>
       </div>
     </section>
 
-    <hr class="m-0">
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <h2 class="section__title reveal">Experience</h2>
+      <div class="timeline">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Staff Data Scientist</h3>
-            <div class="subheading mb-3">Walmart</div>
-            <p>I leverage massive datasets to build and deploy machine learning models that optimize supply chain, personalize customer experiences, and drive business growth. My work involves collaborating with cross-functional teams to deliver data-driven insights and solutions at scale.</p>
+        <div class="glass-card timeline__item reveal">
+          <div class="timeline__header">
+            <div>
+              <h3>Staff Data Scientist</h3>
+              <span class="timeline__company">Walmart</span>
+            </div>
+            <span class="timeline__date">December 2024 &ndash; Present</span>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2024 - Present</span>
-          </div>
+          <p>I leverage massive datasets to build and deploy machine learning models that optimize supply chain, personalize customer experiences, and drive business growth. My work involves collaborating with cross-functional teams to deliver data-driven insights and solutions at scale.</p>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Machine Learning Engineer</h3>
-            <div class="subheading mb-3">VIZIO</div>
-            <p>I work on improving and expanding VIZIO's recommender systems, and personalization efforts more broadly. From data engineering in AWS, to MLOps in Databricks, I navigate complex big data pipelines and am responsible for end-to-end solutions that enhance the user experience of millions of customers.</p>
+        <div class="glass-card timeline__item reveal">
+          <div class="timeline__header">
+            <div>
+              <h3>Machine Learning Engineer</h3>
+              <span class="timeline__company">VIZIO</span>
+            </div>
+            <span class="timeline__date">March 2021 &ndash; December 2024</span>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2021 - December 2024</span>
-          </div>
-
-        </div><div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Data Science Instructor - Local Lead</h3>
-            <div class="subheading mb-3">General Assembly</div>
-            <p>I taught students Python for Data Science (primarily in Jupyter Lab/Notebooks). Topics range from various machine learning models, statistical methods, and algorithms for both regression and classification problems, as well as unsupervised learning methods like clustering and recommender systems. I guide students through 3 months of a very rigorous data science curriculum, including 5 projects and a final capstone for their portfolios.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2019 - March 2021</span>
-          </div>
+          <p>I work on improving and expanding VIZIO's recommender systems, and personalization efforts more broadly. From data engineering in AWS, to MLOps in Databricks, I navigate complex big data pipelines and am responsible for end-to-end solutions that enhance the user experience of millions of customers.</p>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Data Scientist</h3>
-            <div class="subheading mb-3">SpidrTech</div>
-            <p>I used a variety of tools to conduct data analyses for officer performance and agency insights such as SQL (Metabase and Valentina Studio) and Python (Jupyter Lab) I also engaged in natural language processing (NLP) using Google’s Natural Language API for sentiment and entity analyses on unstructured data (e.g. constituent feedback and survey responses), in addition to VADER. I developed numerous dashboards in Metabase for dynamic visualizations that automated recurring analytics (e.g. monthly and quarterly statistics by agency).</p>
+        <div class="glass-card timeline__item reveal">
+          <div class="timeline__header">
+            <div>
+              <h3>Data Science Instructor &ndash; Local Lead</h3>
+              <span class="timeline__company">General Assembly</span>
+            </div>
+            <span class="timeline__date">December 2019 &ndash; March 2021</span>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2019 - August 2019</span>
-          </div>
+          <p>I taught students Python for Data Science (primarily in Jupyter Lab/Notebooks). Topics range from various machine learning models, statistical methods, and algorithms for both regression and classification problems, as well as unsupervised learning methods like clustering and recommender systems. I guide students through 3 months of a very rigorous data science curriculum, including 5 projects and a final capstone for their portfolios.</p>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Junior Data Scientist</h3>
-            <div class="subheading mb-3">FAST</div>
-            <p>I conducted various policy analyses and developed reports for presentation to Members of Armenian Parliament and the Economic Development Committee. I also collaborated with the rest of data science team to build our in-house data cluster, to speed up our data collection, cleaning, and analyses.</p>
+        <div class="glass-card timeline__item reveal">
+          <div class="timeline__header">
+            <div>
+              <h3>Data Scientist</h3>
+              <span class="timeline__company">SpidrTech</span>
+            </div>
+            <span class="timeline__date">June 2019 &ndash; August 2019</span>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">November 2018 - February 2019</span>
-          </div>
+          <p>I used a variety of tools to conduct data analyses for officer performance and agency insights such as SQL (Metabase and Valentina Studio) and Python (Jupyter Lab) I also engaged in natural language processing (NLP) using Google's Natural Language API for sentiment and entity analyses on unstructured data (e.g. constituent feedback and survey responses), in addition to VADER. I developed numerous dashboards in Metabase for dynamic visualizations that automated recurring analytics (e.g. monthly and quarterly statistics by agency).</p>
         </div>
 
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">University of California - Berkeley</h3>
-            <div class="subheading mb-3">Bachelor of Arts</div>
-            <div>Major: Political Economy of Industrialized Societies</div>
-            <p>Minor: City and Regional Planning</p>
+        <div class="glass-card timeline__item reveal">
+          <div class="timeline__header">
+            <div>
+              <h3>Junior Data Scientist</h3>
+              <span class="timeline__company">FAST</span>
+            </div>
+            <span class="timeline__date">November 2018 &ndash; February 2019</span>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2005 - May 2009</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">University of Southern California</h3>
-            <div class="subheading mb-3">Master of Public Policy</div>
-            <p>Specialization: Education Policy </p>
-            <p>GPA: 3.8</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2012 - May 2014</span>
-          </div>
+          <p>I conducted various policy analyses and developed reports for presentation to Members of Armenian Parliament and the Economic Development Committee. I also collaborated with the rest of data science team to build our in-house data cluster, to speed up our data collection, cleaning, and analyses.</p>
         </div>
 
       </div>
     </section>
 
-    <hr class="m-0">
+    <!-- Education -->
+    <section id="education" class="section">
+      <h2 class="section__title reveal">Education</h2>
+      <div class="edu-grid">
+        <div class="glass-card reveal">
+          <h3>University of California &ndash; Berkeley</h3>
+          <span class="edu__degree">Bachelor of Arts</span>
+          <p>Major: Political Economy of Industrialized Societies</p>
+          <p>Minor: City and Regional Planning</p>
+          <span class="timeline__date">August 2005 &ndash; May 2009</span>
+        </div>
+        <div class="glass-card reveal">
+          <h3>University of Southern California</h3>
+          <span class="edu__degree">Master of Public Policy</span>
+          <p>Specialization: Education Policy</p>
+          <p>GPA: 3.8</p>
+          <span class="timeline__date">August 2012 &ndash; May 2014</span>
+        </div>
+      </div>
+    </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2 class="section__title reveal">Skills</h2>
+      <div class="glass-card reveal">
+        <h3>Programming Languages &amp; Tools</h3>
+        <div class="skills__icons">
+          <div class="skill-item">
             <i class="fab fa-jedi-order"></i>
-          </li>
-          <li class="list-inline-item">
+          </div>
+          <div class="skill-item">
             <i class="fab fa-github-square"></i>
-          </li>
-          <li class="list-inline-item">
+          </div>
+          <div class="skill-item">
             <i class="fab fa-kaggle"></i>
-          </li>
-          <li class="list-inline-item">
+          </div>
+          <div class="skill-item">
             <i class="fab fa-python"></i>
-          </li>
-          <li class="list-inline-item">
+          </div>
+          <div class="skill-item">
             <i class="fas fa-database"></i>
-          </li>
-          <li class="list-inline-item">
+          </div>
+          <div class="skill-item">
             <i class="fab fa-aws"></i>
-          </li>
-        </ul>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Jupyter Notebooks &amp; Jupyter Lab</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Statistical Modeling &amp; Machine Learning</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Reporting to technical &amp; non-technical audiences</li>
+          </div>
+        </div>
+      </div>
+      <div class="glass-card reveal" style="margin-top: 1.5rem;">
+        <h3>Workflow</h3>
+        <ul class="skills__workflow">
+          <li><i class="fas fa-check"></i> Jupyter Notebooks &amp; Jupyter Lab</li>
+          <li><i class="fas fa-check"></i> Statistical Modeling &amp; Machine Learning</li>
+          <li><i class="fas fa-check"></i> Cross Functional Teams</li>
+          <li><i class="fas fa-check"></i> Reporting to technical &amp; non-technical audiences</li>
         </ul>
       </div>
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Personal Interests</h2>
+    <!-- Interests -->
+    <section id="interests" class="section">
+      <h2 class="section__title reveal">Interests</h2>
+      <div class="glass-card reveal">
         <p>Apart from being a data scientist, I enjoy most of my time being outdoors. In the pre-pandemic era, I was an avid soccer player. I enjoyed mountain biking, snowboarding, and playing tennis.</p>
-        <p class="mb-0">In the post-pandemic era, my time gaming and Netflixing has increased exponentially. The Witcher and Dark are two of my favorite shows of all time. The Legend of Zelda: Breath of the Wild replaced Ocarina of Time as my favorite game of all time.</p>
+        <p>In the post-pandemic era, my time gaming and Netflixing has increased exponentially. The Witcher and Dark are two of my favorite shows of all time. The Legend of Zelda: Breath of the Wild replaced Ocarina of Time as my favorite game of all time.</p>
       </div>
     </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            General Assembly - Data Science Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Robert P. Biller Award for Best Policy Analysis</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - Policy Solutions Challenge USC</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - Policy Solutions Challenge USA</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - USC Price Nonprofit Case Challenge</li>
+    <!-- Awards -->
+    <section id="awards" class="section">
+      <h2 class="section__title reveal">Awards &amp; Certifications</h2>
+      <div class="glass-card reveal">
+        <ul class="awards__list">
+          <li><i class="fas fa-trophy"></i> General Assembly &ndash; Data Science Certification</li>
+          <li><i class="fas fa-trophy"></i> Robert P. Biller Award for Best Policy Analysis</li>
+          <li><i class="fas fa-trophy"></i> 1<sup>st</sup> Place &ndash; Policy Solutions Challenge USC</li>
+          <li><i class="fas fa-trophy"></i> 2<sup>nd</sup> Place &ndash; Policy Solutions Challenge USA</li>
+          <li><i class="fas fa-trophy"></i> 2<sup>nd</sup> Place &ndash; USC Price Nonprofit Case Challenge</li>
         </ul>
       </div>
     </section>
 
-  </div>
+  </main>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <footer class="site-footer">
+    <p>&copy; 2026 Hovanes Gasparian</p>
+  </footer>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+  <script src="js/resume.js" defer></script>
 
 </body>
 
